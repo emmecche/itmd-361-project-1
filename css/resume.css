@@ -1,0 +1,45 @@
+#inside {
+  padding: 4em;
+}
+
+#navigation {
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-weight: normal;
+}
+
+h4 {
+  font-weight: 600;
+  text-decoration: underline black;
+  margin-block: 1em;
+}
+
+#contact-info {
+  text-align: center;
+}
+
+#contact-info li {
+  display: inline-block;
+  font-weight: bold;
+}
+
+#contact-info li + li::before {
+  content: " • ";
+  padding: 0 1em;
+}
+
+hr {
+  border-top: 0.2em solid black;
+}
+
+.left{
+  display: inline-block;
+  margin-right: none;
+}
+
+.right {
+  float: right;
+}
