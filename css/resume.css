@@ -1,9 +1,14 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 #inside {
   padding: 4em;
 }
 
-#navigation {
-  padding: 0;
+#inside div {
+  padding: 1em;
+  background-color: whitesmoke;
 }
 
 h1 {
@@ -36,6 +41,7 @@ hr {
 }
 
 .left{
+  width: 33%;
   display: inline-block;
   margin-right: none;
 }
