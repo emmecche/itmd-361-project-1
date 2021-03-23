@@ -3,11 +3,12 @@ body {
 }
 
 #inside {
-  padding: 4em;
+  margin: 4em;
 }
 
 #inside div {
   padding: 1em;
+  margin: 0;
   background-color: whitesmoke;
 }
 
@@ -20,6 +21,10 @@ h4 {
   font-weight: 600;
   text-decoration: underline black;
   margin-block: 1em;
+}
+
+li {
+  list-style-type: '- ';
 }
 
 #contact-info {
@@ -41,11 +46,26 @@ hr {
 }
 
 .left{
-  width: 33%;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 50%;
   display: inline-block;
   margin-right: none;
 }
 
 .right {
+  margin-top: auto;
+  margin-bottom: auto;
   float: right;
+}
+
+.course-info {
+  padding: 1%;
+  font-size: 90%;
+  border: thin black solid;
+}
+
+.languages {
+  display: inline-block;
+  margin: 0 1em;
 }

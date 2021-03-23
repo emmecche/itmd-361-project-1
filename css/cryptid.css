@@ -1,0 +1,19 @@
+body {
+  background-image: url('../media/bigfoot_tile.jpg');
+  background-color: black;
+  color: tomato;
+}
+
+h1 {
+  font-family: 'Oi', cursive;
+  font-weight: normal;
+}
+
+#audio-control {
+  padding: 1em;
+  float: right;
+}
+
+#bigfoot-pic {
+  
+}
