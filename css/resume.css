@@ -23,7 +23,7 @@ h4 {
   margin-block: 1em;
 }
 
-li {
+#inside li {
   list-style-type: '- ';
 }
 

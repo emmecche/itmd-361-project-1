@@ -1,3 +1,14 @@
 h1 {
     font-family: 'Chango', cursive;
+    color: black;
+    background-color: gainsboro;
+    display: inline-block;
+    border: black solid 0.25em;
+    border-radius: 1em;
+    padding: 0.25em;
+}
+
+#logo {
+    padding: 1em 4em;
+    background-color: black;
 }
