@@ -9,11 +9,15 @@ h1 {
   font-weight: normal;
 }
 
+#banner {
+  background-image: url('../media/stars.gif');
+}
+
 #audio-control {
   padding: 1em;
   float: right;
 }
 
 #bigfoot-pic {
-  
+
 }
