@@ -1,0 +1,28 @@
+#section1 {
+    padding-right: 1em;
+    display: table-cell;
+    margin-right: 70%;
+    background-color: green;
+}
+
+#section2 {
+    padding: 0 1em;
+    display: table-cell;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: yellow;
+}
+
+#section3 {
+    padding-left: 1em;
+    display: table-cell;
+    margin-left: 70%;
+    background-color: red;
+}
+
+.head {
+    font-size: 3.5em;
+    font-weight: bolder;
+    color: purple;
+    text-decoration: underline pink;
+}
