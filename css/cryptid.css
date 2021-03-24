@@ -12,6 +12,24 @@ body {
 h1 {
   font-family: 'Oi', cursive;
   font-weight: normal;
+  padding-left: 3em;
+}
+
+h3 {
+  padding: .25rem;
+  display: inline-block;
+  background-color: mediumblue;
+  text-decoration: underline lime;
+  margin: 2%;
+}
+
+h4 {
+  display: inline-block;
+  font-size: 1.5em;
+  color: darkred;
+  background-color: white;
+  border: solid 5px yellow;
+  border-radius: 1em;
 }
 
 #banner {
@@ -24,5 +42,67 @@ h1 {
 }
 
 #bigfoot-pic {
+  width: 1200px;
+  height: 20rem;
+}
 
+#jersey-devil-pic {
+  width: 614px; /* hardcode width to be the same while shrinking height */
+  height: 20rem;
+}
+
+#cryptid-list {
+  color: white;
+  columns: 24em;
+  padding: 2em 3em;
+  margin-left: 2em;
+  margin-right: 6em;
+  border: solid 1em blue;
+  background-color: black;
+}
+
+#cryptid-list li {
+  padding-left: 1em;
+}
+
+#cryptid-list .a {
+  list-style-type: '☠';
+}
+
+#cryptid-list .b {
+  list-style-type: '☢';
+}
+
+#bottom-half {
+  padding: 0 3em;
+}
+
+#bottom-half h4 {
+  margin: 0 5em;
+}
+
+#bottom-half img {
+  float: left;
+  margin: 1em 5%;
+}
+
+#bottom-half p {
+  display: table;
+  padding: 0.25em 0.5em;
+  margin: 0 5%;
+  background-color: brown;
+  color: burlywood;
+}
+
+#bottom-half a {
+  background-color: cadetblue;
+  text-decoration: underline overline white;
+}
+
+#bigfoot {
+  margin-bottom: 15rem; /* Based on the height of the bigfoot picture */
+}
+
+#nessie {
+  margin-bottom: 25rem; /* Attempting to keep the distance between all pictures uniform */
 }
