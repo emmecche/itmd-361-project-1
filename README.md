@@ -1,6 +1,6 @@
-# itmd-361-project-1
+# itmd-361-project-2
 
-Repository for the first project for ITMD-361
+Repository branch for the second project for ITMD-361
 Currently contains the files for the first deliverable
 
 Completed the first deliverable
