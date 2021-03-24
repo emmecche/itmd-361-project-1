@@ -1,12 +1,15 @@
 html {
   background-image: url('../media/bigfoot_tile.jpg');
   background-color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: red;
 }
 
 body {
   background-image: url('../media/chupa.png');
   background-repeat: space;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.05em;
 }
 
 h1 {
@@ -42,7 +45,7 @@ h4 {
 }
 
 #bigfoot-pic {
-  width: 1200px;
+  width: 50rem;
   height: 20rem;
 }
 
@@ -100,7 +103,7 @@ h4 {
 }
 
 #bigfoot {
-  margin-bottom: 15rem; /* Based on the height of the bigfoot picture */
+  margin-bottom: 20rem; /* Based on the height of the bigfoot picture */
 }
 
 #nessie {
