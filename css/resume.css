@@ -20,7 +20,6 @@ h1 {
 h4 {
   font-weight: 600;
   text-decoration: underline black;
-  margin-block: 1em;
 }
 
 #inside li {
@@ -50,7 +49,7 @@ hr {
   margin-bottom: auto;
   width: 50%;
   display: inline-block;
-  margin-right: none;
+  margin-right: 0;
 }
 
 .right {
