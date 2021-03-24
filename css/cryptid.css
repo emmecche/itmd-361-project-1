@@ -1,7 +1,12 @@
-body {
+html {
   background-image: url('../media/bigfoot_tile.jpg');
   background-color: black;
   color: red;
+}
+
+body {
+  background-image: url('../media/chupa.png');
+  background-repeat: space;
 }
 
 h1 {
