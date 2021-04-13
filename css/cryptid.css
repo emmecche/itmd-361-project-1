@@ -33,6 +33,7 @@ h4 {
   background-color: white;
   border: solid 5px yellow;
   border-radius: 1em;
+  padding: 0em .25em;
 }
 
 #banner {
@@ -76,6 +77,11 @@ h4 {
   list-style-type: '☢';
 }
 
+#cryptid-list a {
+  text-decoration: none;
+  color: white;
+}
+
 #bottom-half {
   padding: 0 3em;
 }
@@ -87,6 +93,7 @@ h4 {
 #bottom-half img {
   float: left;
   margin: 1em 5%;
+  border: .5em solid brown;
 }
 
 #bottom-half p {
