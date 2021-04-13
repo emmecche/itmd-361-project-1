@@ -38,29 +38,30 @@ h1 {
 
 #creature-company {
   margin: 0 2em;
-  margin-bottom: 20%;
+  margin-bottom: 25%;
 }
 
 #the-guy {
   margin: 0 2em;
-  margin-bottom: 20%;
+  margin-bottom: 25%;
 }
 
 #shirts h2 {
   font-size: 2.5em;
   font-weight: bolder;
+  text-align: center;
 }
 
 #shirts img {
   float: right;
-  padding-right: 10em;
+  padding-right: 5em;
   height: 40%;
   width: 40%;
 }
 
 #shirts p {
-  margin: 5% 50% 5% 5%;
-  padding: 2em 5em 0 2em;
+  margin: 5% 37% 5% 2%;
+  padding: 6em 5em 0 2em;
   font-size: 2em;
 }
 
