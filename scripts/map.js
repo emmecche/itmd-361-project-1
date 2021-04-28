@@ -23,35 +23,35 @@ function init() {
 
     var aquariumMarker = new google.maps.Marker({
         position: aquariumLocation,
-        map = myMap,
+        map: myMap,
         animation: google.maps.Animation.BOUNCE,
         icon: 'media/fish_marker.png'
     });
 
     var fieldMarker = new google.maps.Marker({
         position: fieldLocation,
-        map = myMap,
+        map: myMap,
         animation: google.maps.Animation.BOUNCE,
         icon: 'media/skull_marker.png'
     });
 
     var scienceMarker = new google.maps.Marker({
         position: scienceLocation,
-        map = myMap,
+        map: myMap,
         animation: google.maps.Animation.BOUNCE,
         icon: 'media/bulb_marker.png'
     });
 
     var artMarker = new google.maps.Marker({
         position: artLocation,
-        map = myMap,
+        map: myMap,
         animation: google.maps.Animation.BOUNCE,
         icon: 'media/art_marker.png'
     });
 
     var zooMarker = new google.maps.Marker({
         position: zooLocation,
-        map = myMap,
+        map: myMap,
         animation: google.maps.Animation.BOUNCE,
         icon: 'media/zoo_marker.png'
     });
