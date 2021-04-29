@@ -1,5 +1,5 @@
 function init() {
-    alert("working");
+    //alert("working");
     var el = document.getElementById('canvas');
 
     var aquariumLocation = new google.maps.LatLng(41.8676, -87.6140);
@@ -55,7 +55,7 @@ function init() {
         animation: google.maps.Animation.BOUNCE,
         icon: 'media/zoo_marker.png'
     });
-
+    
 }
 
 google.maps.event.addDomListener(window, 'load', init);
